@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>productList</title>
+    <link rel="stylesheet" href="../boostrap/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div id="box">
+
+    </div>
+    <button type="button" class="btn btn-primary" onclick="sortItem()">Sort_descending</button>
+    <button type="button" class="btn btn-primary" onclick="sortItem2()">Sort_ascending</button>
+
+    <div class="d-flex">
+
+        <form action="" style="display: none;" id="form">
+            <input type="text" class="form-control my-2" value="" name="product" id="product"><br>
+            <input type="text" class="form-control my-2" value="" name="quantity" id="quantity"><br>
+            <input type="text" class="form-control my-2" value="" name="mrpprice" id="mrpprice"><br>
+            <input type="text" class="form-control my-2" value="" name="salePrice" id="salePrice">
+            <button type="submit">Submit</button>
+            <!-- <button type="button" id="clickBtn">Update</button> -->
+        </form>
+
+    </div>
+    <script src="../js/productList.js"></script>
+</body>
+
+</html>
